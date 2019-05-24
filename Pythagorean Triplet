@@ -7,6 +7,8 @@
 //      A pair (b, c) with given sum can be found in O(n) time using meet in middle algorithm discussed in method 1 of this post.
 //   iii. If no pair found for current 'a', then move 'a' one position back and repeat step 3.2.
 
+// Input  : {3, 1, 4, 6, 5}
+// Output : Yes
 
 #include <iostream> 
 #include <algorithm> 
