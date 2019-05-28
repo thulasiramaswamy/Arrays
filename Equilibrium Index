@@ -1,4 +1,13 @@
-#include <iostream> 
+// Time Complexity: O(n)
+// The idea is to get total sum of array first. 
+// Then Iterate through the array and keep updating the left sum which is initialized as zero.
+// In the loop, we can get right sum by subtracting the elements one by one.
+// Input : A[] = {-7, 1, 5, 2, -4, 3, 0}, Output : 3
+// 3 is an equilibrium index, because:
+// A[0] + A[1] + A[2]  =  A[4] + A[5] + A[6]
+
+
+#include <iostream>
 using namespace std; 
 
 int equilibrium(int arr[], int n) 
