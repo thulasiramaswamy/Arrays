@@ -4,7 +4,9 @@
 // If both are same then print any of them and increment both i and j.
 // Print remaining elements of the larger array.
 // Time Complexity : O(m + n)
-
+// arr1[] = {1, 2, 4, 5, 6}
+// arr2[] = {2, 3, 5, 7}
+// output = {1, 2, 3, 4, 5, 6, 7}
 #include <iostream>
 using namespace std; 
 
