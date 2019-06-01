@@ -12,8 +12,8 @@ int BinarySearch(int arr[], int size, int x)
   if(x == arr[mid])
   {
   result = mid;
-  low = mid + 1; // last occurrence
-  //high = mid - 1; // first occurrence
+  low = mid + 1; // last occurrence, towards right side(higher indices)
+  //high = mid - 1; // first occurrence, towards left side(lower indices)
   }
   else if(x < arr[mid]) high = mid - 1;
   else low = mid + 1;
