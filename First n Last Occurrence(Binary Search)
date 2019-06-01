@@ -1,3 +1,4 @@
+Time Complexity : O(logn)
 #include<stdio.h>
 
 int BinarySearch(int arr[], int size, int x)
