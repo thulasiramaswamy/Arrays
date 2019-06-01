@@ -6,7 +6,7 @@
 // Algorithmic Paradigm: Dynamic Programming
 // What is Sub Array?
 // An Array within an array containing contiguous elements
-
+// Downside : Algorithm works for mix of -ve and +ve integers
 #include <iostream>
 using namespace std;
 int maxSubArraySum(int a[], int size) 
