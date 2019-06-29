@@ -8,8 +8,8 @@
 // Ouptut: Sum found between indexes 1 and 4
 
 #include<stdio.h>
-// returns true if there is a subarray with the given sum, else return false
-int subArraySum(int arr[], int n, int sum)
+
+void subArraySum(int arr[], int n, int sum)
 {
  int curr_sum = arr[0], start = 0, i;
  for (i = 1; i <= n; i++)
@@ -22,12 +22,11 @@ int subArraySum(int arr[], int n, int sum)
     if (curr_sum == sum) 
     {
        printf ("Sum found between indexes %d and %d", start, i-1);
-       return 1;
+       return;
     }
-    if (i < n) curr_sum = curr_sum + arr[i];
+    curr_sum = curr_sum + arr[i];
  }
  printf("No subarray found");
- return 0;
 }
 int main() 
 { 
